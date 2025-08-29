@@ -2,6 +2,7 @@ USE salesDB;
 
 -- Question 1
 -- Drop index named IdxPhone from customer table
+CREATE INDEX IdxPhone ON customers (Phone);
 DROP INDEX IdxPhone ON customers;
 
 -- Question 2
