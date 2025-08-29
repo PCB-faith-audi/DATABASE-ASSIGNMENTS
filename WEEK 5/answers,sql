@@ -1,0 +1,17 @@
+USE salesDB;
+
+-- Question 1
+-- Drop index named IdxPhone from customer table
+DROP INDEX IdxPhone ON customers;
+
+-- Question 2
+-- create user named bob
+CREATE USER bob@localhost IDENTIFIED BY 'S$cu3r3!';
+
+-- Question 3
+-- grant the insert privilege to bob on salesDB database
+GRANT INSERT ON salesDB. * TO bob@localhost;
+
+-- Question 4
+-- change the password for bob
+ALTER USER bob@localhost IDENTIFIED BY 'P$55!23';
